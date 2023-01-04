@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Toggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Handlee" />
+  </head>
+
+  <body>
+    <p class="headtext">
+      Click on the menu to select your favorite background color!
+    </p>
+
+    <p class="press-keys">
+      Or press <b>1</b> for grey, <b>2</b> for red, <b>3</b> for orange,
+      <b>4</b> for purple and <b>5</b> for green!
+    </p>
+    <img src="/hamburger_menu.png" id="menu-bar" onclick="toggleMenu()" />
+    <ul id="menu-items" class="collapsed">
+      <li id="grey" class="grey-background">Grey</li>
+      <li id="red" class="red-background">Red</li>
+      <li id="orange" class="orange-background">Orange</li>
+      <li id="purple" class="purple-background">Purple</li>
+      <li id="green" class="green-background">Green</li>
+    </ul>
+    <p id="colorname">Grey</p>
+  </body>
+</html>
